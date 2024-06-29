@@ -6,14 +6,14 @@ To launch this, make sure you already installed all the necessaries. Then you ju
 ### Start ZooKeeper
 bin/zookeeper-server-start.sh config/zookeeper.properties
 
-## Start Kafka
+### Start Kafka
 bin/kafka-server-start.sh config/server.properties
 
-# Set environment variables
+### Set environment variables
 export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/service/account/key.json"
 
-# Start producer
+### Start producer
 python producer.py
 
-# Start consumer
+### Start consumer
 python consumer.py
