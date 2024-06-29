@@ -3,10 +3,10 @@
 
 To launch this, make sure you already installed all the necessaries. Then you just have to run these 4 steps:
 
-# Start ZooKeeper
+### Start ZooKeeper
 bin/zookeeper-server-start.sh config/zookeeper.properties
 
-# Start Kafka
+## Start Kafka
 bin/kafka-server-start.sh config/server.properties
 
 # Set environment variables
